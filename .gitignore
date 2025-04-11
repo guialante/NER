@@ -1,0 +1,43 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Virtual environments
+venv/
+env/
+ner-app/
+.env
+
+# Testing
+.coverage
+.pytest_cache/
+htmlcov/
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Generated files
+*.docx
+*.txt
+*.pdf
+*.log
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# OCR and NER model caches
+models/
+.spacy
+
+# OS specific
+.DS_Store
+Thumbs.db 

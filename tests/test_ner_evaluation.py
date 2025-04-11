@@ -3,7 +3,7 @@ Test script for evaluating NER model performance.
 """
 import pytest
 from src.ner import extract_entities
-from .evaluation import NEREvaluator
+from src.evaluation import NEREvaluator
 import os
 
 @pytest.fixture
