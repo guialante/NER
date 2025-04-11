@@ -27,7 +27,6 @@ htmlcov/
 
 # Generated files
 *.docx
-*.txt
 *.pdf
 *.log
 
