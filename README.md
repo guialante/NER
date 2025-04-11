@@ -35,7 +35,7 @@ NER/
 
 1. Clone this repository:
 ```bash
-git clone <repository-url>
+git clone git@github.com:guialante/NER.git
 cd NER
 ```
 
