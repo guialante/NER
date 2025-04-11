@@ -1,0 +1,52 @@
+[
+  {
+    "text": "John Smith appointed Jane Doe as the trustee of his estate on March 15, 2024.",
+    "entities": [
+      {"entity": "John Smith", "type": "Name"},
+      {"entity": "Jane Doe", "type": "Name"},
+      {"entity": "trustee", "type": "LegalTerm"},
+      {"entity": "estate", "type": "LegalTerm"},
+      {"entity": "March 15, 2024", "type": "Date"}
+    ]
+  },
+  {
+    "text": "The trust agreement dated January 10, 2024, allocates $500,000 to the beneficiary Sarah Williams.",
+    "entities": [
+      {"entity": "trust agreement", "type": "LegalTerm"},
+      {"entity": "January 10, 2024", "type": "Date"},
+      {"entity": "500,000", "type": "MonetaryAmount"},
+      {"entity": "beneficiary", "type": "LegalTerm"},
+      {"entity": "Sarah Williams", "type": "Name"}
+    ]
+  },
+  {
+    "text": "Upon the death of Thomas Anderson, the successor trustee Elizabeth Wilson shall distribute $2.5 million according to Article 7.",
+    "entities": [
+      {"entity": "Thomas Anderson", "type": "Name"},
+      {"entity": "Elizabeth Wilson", "type": "Name"},
+      {"entity": "successor trustee", "type": "LegalTerm"},
+      {"entity": "2.5 million", "type": "MonetaryAmount"},
+      {"entity": "Article 7", "type": "LegalClause"}
+    ]
+  },
+  {
+    "text": "The executor, Robert Thompson, must file tax returns by April 15, 2024, and pay estate tax of $150,000.",
+    "entities": [
+      {"entity": "executor", "type": "LegalTerm"},
+      {"entity": "Robert Thompson", "type": "Name"},
+      {"entity": "tax returns", "type": "LegalTerm"},
+      {"entity": "April 15, 2024", "type": "Date"},
+      {"entity": "estate tax", "type": "LegalTerm"},
+      {"entity": "150,000", "type": "MonetaryAmount"}
+    ]
+  },
+  {
+    "text": "The power of attorney granted to Michael Johnson expires on December 31, 2024, as specified in Section 3.2.",
+    "entities": [
+      {"entity": "power of attorney", "type": "LegalTerm"},
+      {"entity": "Michael Johnson", "type": "Name"},
+      {"entity": "December 31, 2024", "type": "Date"},
+      {"entity": "Section 3.2", "type": "LegalClause"}
+    ]
+  }
+] 
